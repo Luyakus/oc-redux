@@ -11,13 +11,13 @@
 #import "AHSRequestAction.h"
 NS_ASSUME_NONNULL_BEGIN
 
-static NSString *ahs_default_scope = @"ahs_runin";
 
 @interface NSObject(Redux) <AHSReceiveActionProtocol>
 // 自己发送的 requestAction 的回调是一定可以收到的, 如果想收到别的回调, 需要手动添加
 // 如果只发送一个 request 可以不用写 id, 如果有多个则一定要写 id
 
 - (void)requestForUrl:(NSString *)url action:(AHSRequestAction *)action;
+- (void)requestForUrl:(NSString *)url action:(AHSRequestAction *)action inScope:(NSString *)scope;
 
 - (void)registToReceiveActionForIdentifier:(NSString *)identifier;
 

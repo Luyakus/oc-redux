@@ -13,7 +13,7 @@
 #import "AHSActionReducer.h"
 @interface AHSDetectStore ()
 - (void)registReducer:(AHSActionReducer *)reducer ForUrl:(NSString *)url inScope:(NSString *)scope;
-- (void)handleUrl:(NSString *)url inScope:(NSString *)scope requestAction:(AHSRequestAction *)action;
+- (void)handleUrl:(NSString *)url requestAction:(AHSRequestAction *)action inScope:(NSString *)scope;
 @end
 
 #endif /* AHSDetectStore_Private_h */

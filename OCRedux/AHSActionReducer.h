@@ -13,8 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface AHSActionReducer : AHSBaseModel
 
 // 在 + (void)load 方法中注册
+- (void)registForUrl:(NSString *)url;
 - (void)registForUrl:(NSString *)url inScope:(NSString *)scope;
-
 // 子类 overwrite
 - (void)handleUrl:(NSString *)url requestAction:(AHSRequestAction *)action;
 

@@ -7,7 +7,7 @@
 //
 
 #import "AHSBaseModel.h"
-
+#import <ReactiveCocoa/ReactiveCocoa.h>
 NS_ASSUME_NONNULL_BEGIN
 @interface AHSDispatchAction : AHSBaseModel
 @property (nonatomic, copy) NSString  *identifier;

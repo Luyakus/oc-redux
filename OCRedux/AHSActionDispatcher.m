@@ -48,7 +48,7 @@
     NSArray *arr = [self.recivers[action.identifier] allObjects];
     for (id <AHSReceiveActionProtocol> receiver in arr) {
         NSAssert([receiver respondsToSelector:@selector(handleAction:)], action.identifier, receiver, @"not handle");
-        [receiver handleAction:action];
+        if ([receiver respondsToSelector:@selector(handleAction:)]) [receiver handleAction:action];
     }
 }
 

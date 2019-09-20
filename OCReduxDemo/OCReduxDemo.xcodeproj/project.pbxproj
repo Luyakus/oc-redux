@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221C72112334F47D00E3D010 /* AHSBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 221C72102334F47D00E3D010 /* AHSBaseModel.m */; };
+		221C72222334F54200E3D010 /* AHSActionReducer.m in Sources */ = {isa = PBXBuildFile; fileRef = 221C72142334F54100E3D010 /* AHSActionReducer.m */; };
+		221C72232334F54200E3D010 /* AHSRequestAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 221C72162334F54100E3D010 /* AHSRequestAction.m */; };
+		221C72242334F54200E3D010 /* AHSDetectStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 221C72172334F54100E3D010 /* AHSDetectStore.m */; };
+		221C72252334F54200E3D010 /* AHSActionDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 221C72192334F54100E3D010 /* AHSActionDispatcher.m */; };
+		221C72262334F54200E3D010 /* AHSDispatchAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 221C721D2334F54100E3D010 /* AHSDispatchAction.m */; };
+		221C72272334F54200E3D010 /* NSObject+Redux.m in Sources */ = {isa = PBXBuildFile; fileRef = 221C721E2334F54100E3D010 /* NSObject+Redux.m */; };
+		221C722B2334F59200E3D010 /* AHSUploadLogReducer.m in Sources */ = {isa = PBXBuildFile; fileRef = 221C722A2334F59200E3D010 /* AHSUploadLogReducer.m */; };
+		221C722E2334F5A300E3D010 /* AHSLogReducer.m in Sources */ = {isa = PBXBuildFile; fileRef = 221C722D2334F5A300E3D010 /* AHSLogReducer.m */; };
+		22CFBA5D2334F40900D381B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CFBA5C2334F40900D381B3 /* AppDelegate.m */; };
+		22CFBA602334F40900D381B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CFBA5F2334F40900D381B3 /* ViewController.m */; };
+		22CFBA632334F40900D381B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CFBA612334F40900D381B3 /* Main.storyboard */; };
+		22CFBA652334F40A00D381B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CFBA642334F40A00D381B3 /* Assets.xcassets */; };
+		22CFBA682334F40A00D381B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CFBA662334F40A00D381B3 /* LaunchScreen.storyboard */; };
+		22CFBA6B2334F40A00D381B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CFBA6A2334F40A00D381B3 /* main.m */; };
+		7B6E2C421D698C7D6AEAFA90 /* Pods_OCReduxDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E768845621F37ED501301A36 /* Pods_OCReduxDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		221C720F2334F47D00E3D010 /* AHSBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHSBaseModel.h; sourceTree = "<group>"; };
+		221C72102334F47D00E3D010 /* AHSBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHSBaseModel.m; sourceTree = "<group>"; };
+		221C72122334F4B900E3D010 /* OCReduxDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCReduxDemo.pch; sourceTree = "<group>"; };
+		221C72142334F54100E3D010 /* AHSActionReducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHSActionReducer.m; sourceTree = "<group>"; };
+		221C72152334F54100E3D010 /* AHSDispatchAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHSDispatchAction.h; sourceTree = "<group>"; };
+		221C72162334F54100E3D010 /* AHSRequestAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHSRequestAction.m; sourceTree = "<group>"; };
+		221C72172334F54100E3D010 /* AHSDetectStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHSDetectStore.m; sourceTree = "<group>"; };
+		221C72182334F54100E3D010 /* NSObject+Redux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Redux.h"; sourceTree = "<group>"; };
+		221C72192334F54100E3D010 /* AHSActionDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHSActionDispatcher.m; sourceTree = "<group>"; };
+		221C721A2334F54100E3D010 /* AHSDetectStore+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AHSDetectStore+Private.h"; sourceTree = "<group>"; };
+		221C721B2334F54100E3D010 /* AHSActionReducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHSActionReducer.h; sourceTree = "<group>"; };
+		221C721C2334F54100E3D010 /* AHSOCRedux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHSOCRedux.h; sourceTree = "<group>"; };
+		221C721D2334F54100E3D010 /* AHSDispatchAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHSDispatchAction.m; sourceTree = "<group>"; };
+		221C721E2334F54100E3D010 /* NSObject+Redux.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Redux.m"; sourceTree = "<group>"; };
+		221C721F2334F54100E3D010 /* AHSDetectStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHSDetectStore.h; sourceTree = "<group>"; };
+		221C72202334F54100E3D010 /* AHSRequestAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHSRequestAction.h; sourceTree = "<group>"; };
+		221C72212334F54100E3D010 /* AHSActionDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHSActionDispatcher.h; sourceTree = "<group>"; };
+		221C72292334F59200E3D010 /* AHSUploadLogReducer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHSUploadLogReducer.h; sourceTree = "<group>"; };
+		221C722A2334F59200E3D010 /* AHSUploadLogReducer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHSUploadLogReducer.m; sourceTree = "<group>"; };
+		221C722C2334F5A300E3D010 /* AHSLogReducer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHSLogReducer.h; sourceTree = "<group>"; };
+		221C722D2334F5A300E3D010 /* AHSLogReducer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHSLogReducer.m; sourceTree = "<group>"; };
+		22CFBA582334F40900D381B3 /* OCReduxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCReduxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CFBA5B2334F40900D381B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22CFBA5C2334F40900D381B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22CFBA5E2334F40900D381B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22CFBA5F2334F40900D381B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22CFBA622334F40900D381B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22CFBA642334F40A00D381B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22CFBA672334F40A00D381B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22CFBA692334F40A00D381B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CFBA6A2334F40A00D381B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4C78C0DC28968B71791BBAB /* Pods-OCReduxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCReduxDemo.release.xcconfig"; path = "Target Support Files/Pods-OCReduxDemo/Pods-OCReduxDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E768845621F37ED501301A36 /* Pods_OCReduxDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCReduxDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE909FE18E9794AF26FE2EB7 /* Pods-OCReduxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCReduxDemo.debug.xcconfig"; path = "Target Support Files/Pods-OCReduxDemo/Pods-OCReduxDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22CFBA552334F40900D381B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6E2C421D698C7D6AEAFA90 /* Pods_OCReduxDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05EF79C089AB10F7B2DF18D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE909FE18E9794AF26FE2EB7 /* Pods-OCReduxDemo.debug.xcconfig */,
+				D4C78C0DC28968B71791BBAB /* Pods-OCReduxDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		221C72132334F54100E3D010 /* OCRedux */ = {
+			isa = PBXGroup;
+			children = (
+				221C721C2334F54100E3D010 /* AHSOCRedux.h */,
+				221C72212334F54100E3D010 /* AHSActionDispatcher.h */,
+				221C72192334F54100E3D010 /* AHSActionDispatcher.m */,
+				221C721B2334F54100E3D010 /* AHSActionReducer.h */,
+				221C72142334F54100E3D010 /* AHSActionReducer.m */,
+				221C721F2334F54100E3D010 /* AHSDetectStore.h */,
+				221C72172334F54100E3D010 /* AHSDetectStore.m */,
+				221C721A2334F54100E3D010 /* AHSDetectStore+Private.h */,
+				221C72152334F54100E3D010 /* AHSDispatchAction.h */,
+				221C721D2334F54100E3D010 /* AHSDispatchAction.m */,
+				221C72202334F54100E3D010 /* AHSRequestAction.h */,
+				221C72162334F54100E3D010 /* AHSRequestAction.m */,
+				221C72182334F54100E3D010 /* NSObject+Redux.h */,
+				221C721E2334F54100E3D010 /* NSObject+Redux.m */,
+			);
+			name = OCRedux;
+			path = ../../OCRedux;
+			sourceTree = "<group>";
+		};
+		221C72282334F57100E3D010 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				221C72292334F59200E3D010 /* AHSUploadLogReducer.h */,
+				221C722A2334F59200E3D010 /* AHSUploadLogReducer.m */,
+				221C722C2334F5A300E3D010 /* AHSLogReducer.h */,
+				221C722D2334F5A300E3D010 /* AHSLogReducer.m */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		22CFBA4F2334F40900D381B3 = {
+			isa = PBXGroup;
+			children = (
+				22CFBA5A2334F40900D381B3 /* OCReduxDemo */,
+				22CFBA592334F40900D381B3 /* Products */,
+				05EF79C089AB10F7B2DF18D9 /* Pods */,
+				FB2AA7ED49C9C7D496C08357 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22CFBA592334F40900D381B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22CFBA582334F40900D381B3 /* OCReduxDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22CFBA5A2334F40900D381B3 /* OCReduxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				221C72282334F57100E3D010 /* Reducers */,
+				221C72132334F54100E3D010 /* OCRedux */,
+				22CFBA5B2334F40900D381B3 /* AppDelegate.h */,
+				22CFBA5C2334F40900D381B3 /* AppDelegate.m */,
+				22CFBA5E2334F40900D381B3 /* ViewController.h */,
+				22CFBA5F2334F40900D381B3 /* ViewController.m */,
+				22CFBA612334F40900D381B3 /* Main.storyboard */,
+				22CFBA642334F40A00D381B3 /* Assets.xcassets */,
+				22CFBA662334F40A00D381B3 /* LaunchScreen.storyboard */,
+				22CFBA692334F40A00D381B3 /* Info.plist */,
+				22CFBA6A2334F40A00D381B3 /* main.m */,
+				221C720F2334F47D00E3D010 /* AHSBaseModel.h */,
+				221C72102334F47D00E3D010 /* AHSBaseModel.m */,
+				221C72122334F4B900E3D010 /* OCReduxDemo.pch */,
+			);
+			path = OCReduxDemo;
+			sourceTree = "<group>";
+		};
+		FB2AA7ED49C9C7D496C08357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E768845621F37ED501301A36 /* Pods_OCReduxDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22CFBA572334F40900D381B3 /* OCReduxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CFBA6E2334F40A00D381B3 /* Build configuration list for PBXNativeTarget "OCReduxDemo" */;
+			buildPhases = (
+				7697A6E7FD5B0BC1191E6309 /* [CP] Check Pods Manifest.lock */,
+				22CFBA542334F40900D381B3 /* Sources */,
+				22CFBA552334F40900D381B3 /* Frameworks */,
+				22CFBA562334F40900D381B3 /* Resources */,
+				5F3860DEC9D50A679BDE3171 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCReduxDemo;
+			productName = OCReduxDemo;
+			productReference = 22CFBA582334F40900D381B3 /* OCReduxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22CFBA502334F40900D381B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = sam;
+				TargetAttributes = {
+					22CFBA572334F40900D381B3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 22CFBA532334F40900D381B3 /* Build configuration list for PBXProject "OCReduxDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22CFBA4F2334F40900D381B3;
+			productRefGroup = 22CFBA592334F40900D381B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22CFBA572334F40900D381B3 /* OCReduxDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22CFBA562334F40900D381B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CFBA682334F40A00D381B3 /* LaunchScreen.storyboard in Resources */,
+				22CFBA652334F40A00D381B3 /* Assets.xcassets in Resources */,
+				22CFBA632334F40900D381B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F3860DEC9D50A679BDE3171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCReduxDemo/Pods-OCReduxDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCReduxDemo/Pods-OCReduxDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7697A6E7FD5B0BC1191E6309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCReduxDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22CFBA542334F40900D381B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221C722B2334F59200E3D010 /* AHSUploadLogReducer.m in Sources */,
+				221C72222334F54200E3D010 /* AHSActionReducer.m in Sources */,
+				221C72252334F54200E3D010 /* AHSActionDispatcher.m in Sources */,
+				22CFBA602334F40900D381B3 /* ViewController.m in Sources */,
+				221C72232334F54200E3D010 /* AHSRequestAction.m in Sources */,
+				221C72112334F47D00E3D010 /* AHSBaseModel.m in Sources */,
+				221C722E2334F5A300E3D010 /* AHSLogReducer.m in Sources */,
+				221C72242334F54200E3D010 /* AHSDetectStore.m in Sources */,
+				221C72272334F54200E3D010 /* NSObject+Redux.m in Sources */,
+				22CFBA6B2334F40A00D381B3 /* main.m in Sources */,
+				22CFBA5D2334F40900D381B3 /* AppDelegate.m in Sources */,
+				221C72262334F54200E3D010 /* AHSDispatchAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22CFBA612334F40900D381B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22CFBA622334F40900D381B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22CFBA662334F40A00D381B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22CFBA672334F40A00D381B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22CFBA6C2334F40A00D381B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22CFBA6D2334F40A00D381B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22CFBA6F2334F40A00D381B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE909FE18E9794AF26FE2EB7 /* Pods-OCReduxDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/OCReduxDemo/OCReduxDemo.pch";
+				INFOPLIST_FILE = OCReduxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.sam.com.OCReduxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22CFBA702334F40A00D381B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C78C0DC28968B71791BBAB /* Pods-OCReduxDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/OCReduxDemo/OCReduxDemo.pch";
+				INFOPLIST_FILE = OCReduxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.sam.com.OCReduxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22CFBA532334F40900D381B3 /* Build configuration list for PBXProject "OCReduxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CFBA6C2334F40A00D381B3 /* Debug */,
+				22CFBA6D2334F40A00D381B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22CFBA6E2334F40A00D381B3 /* Build configuration list for PBXNativeTarget "OCReduxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CFBA6F2334F40A00D381B3 /* Debug */,
+				22CFBA702334F40A00D381B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22CFBA502334F40900D381B3 /* Project object */;
+}

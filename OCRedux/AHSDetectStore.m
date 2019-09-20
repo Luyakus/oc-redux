@@ -7,6 +7,7 @@
 //
 #import "AHSActionReducer.h"
 #import "AHSDetectStore.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
 
 
@@ -48,7 +49,7 @@
     }
 }
 
-- (void)handleUrl:(NSString *)url inScope:(NSString *)scope requestAction:(AHSRequestAction *)action {
+- (void)handleUrl:(NSString *)url requestAction:(AHSRequestAction *)action inScope:(NSString *)scope {
     NSArray *reducers = self.store[scope][url];
     if (!reducers) return;
     [reducers enumerateObjectsUsingBlock:^(AHSActionReducer *obj, NSUInteger idx, BOOL * _Nonnull stop) {
