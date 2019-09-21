@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
     AHSRequestAction *action = [AHSRequestAction new];
-    action.data = @"百日依山尽, 黄河入海流, 欲穷千里目, 更上一层楼";
+    action.data = @"白日依山尽, 黄河入海流, 欲穷千里目, 更上一层楼";
     action.identifier = @"ahs://uploadlog";
     [self requestForUrl:@"ahs://uploadlog" action:action];
 }
