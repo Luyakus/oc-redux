@@ -2,10 +2,10 @@
 AHSRedux 是 react-redux + thunk 的简易实现, 同时根据 iOS 平台的特点做了合理的精简
 
 ### 与 redux 相同的地方
-1. store, action, reducer, dispather, 基本元素一致
+1. store, action, reducer, dispatcher, 基本元素一致
 2. 由 store 管理所有的 reducer
 3. 由 action 触发状态改变
-4. 由 diaptcher 分发 action
+4. 由 diapatcher 分发 action
 
 ### 与 react-redux 不同的地方
 由于 iOS 有天然的 controller, 所以我们只需要关心 controller 层级的状态共享即可, AHSRedux 相对于标准的 react-redux 有如下区别
